@@ -12,6 +12,9 @@ num = int(input('digite aqui por quanto quer dividir'))
 
 # mais eficiente: abrir múltiplas "cópias" da função na memória, ou reutilizar o mesmo bloco de código?
 
+# try/except (Python) = try/catch (JavaScript)
+# raise (Python) = throw (JavaScript)
+# Mesma ideia, nomes diferentes
 def Divisao(num):
     try:
         res = 100/num
